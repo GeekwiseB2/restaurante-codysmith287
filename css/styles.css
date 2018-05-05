@@ -55,6 +55,12 @@ max-height: 250px;
   background-image: url('../img/farm-2.jpg');
 }
 
+.btn-primary,
+.btn-primary:hover{
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+
 #our_story {
   min-height: 600px;
   display:flex;

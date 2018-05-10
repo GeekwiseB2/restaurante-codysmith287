@@ -42,7 +42,7 @@ max-height: 250px;
 }
 
 .carousel-inner .item {
-  height:60vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
 }
@@ -61,13 +61,19 @@ max-height: 250px;
   border-color: #F8512F;
 }
 
+.carousel-indicators .active {
+  background-color: #f8512f;
+}
+
 #our_story {
   min-height: 600px;
   display:flex;
   align-items: center;
 }
 
-#our_story h1 {
+#our_story h1,
+#review h1,
+#menu h1 {
   font-family: 'Lobster', cursive;
   color: #F8512F;
   font-size: 6em;
@@ -88,4 +94,94 @@ max-height: 250px;
   font-weight: 700;
   font-size: 2em;
   margin-top: 0;
+}
+
+/* QUOTE */
+
+#review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#review p {
+  color: #FFFFFF;
+  font-family: 'Raleway', san-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0A0A0A;
+}
+
+#review .container {
+  background-color: (20, 20, 20, .6);
+  padding: 10px;
+  border-raduis: 5px;
+}
+
+/* MENU */
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 600px;
+}
+
+#menu h1 {
+  color: #FFFFFF;
+}
+
+#menu a {
+  color: #F8512F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu .tab-pane .row {
+  margin:0;
+}
+
+#menu .tab-content .food {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+#contact {
+  background-color: #F8512F;
+  min-height: 600px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 50px;
+}
+
+#contact form {
+  background-color: #FF6633;
+  border: 1px solid #FFFFFF;
+  padding: 15px;
+}
+
+#contact .form-group span {
+  color: #FF0D06;
+  text-shadow: 1px 1px 5px #FFFFFF;
+}
+
+.red-dot {
+  color: #FF0D06;
+  text-shadow: 1px 1px 5px #FFFFFF;
+}
+
+
+.contact-info img {
+  max-height: 20px;
+  margin-left: 0;
 }

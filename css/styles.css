@@ -105,13 +105,12 @@ max-height: 250px;
   min-height: 600px;
   background-image: url('../img/food_review.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 #review p {
   color: #FFFFFF;
-  font-family: 'Raleway', san-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   text-shadow: 1px 1px 5px #0A0A0A;
 }
